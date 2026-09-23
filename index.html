@@ -1,147 +1,430 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work From Home</title>
-    
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '4380613462223935');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=4380613462223935&ev=PageView&noscript=1"
-    /></noscript>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
-        .card {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            max-width: 400px;
-            width: 100%;
-            padding: 30px;
-            text-align: center;
-        }
-        .header-text {
-            color: #d32f2f;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .logo-container {
-            width: 150px;
-            height: 150px;
-            margin: 0 auto 25px;
-            border-radius: 50%;
-            border: 4px solid #4caf50;
-            overflow: hidden;
-        }
-        .logo-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .features {
-            text-align: left;
-            margin-bottom: 30px;
-        }
-        .feature-item {
-            margin: 15px 0;
-            font-size: 16px;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-        }
-        .check-icon {
-            color: #4caf50;
-            font-weight: bold;
-        }
-        .btn-telegram {
-            background-color: #0088cc;
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            border-radius: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 18px;
-            box-shadow: 0 4px 10px rgba(0, 136, 204, 0.3);
-            transition: transform 0.2s;
-        }
-        .btn-telegram:active {
-            transform: scale(0.98);
-        }
-        .telegram-icon {
-            width: 24px;
-            margin-right: 10px;
-        }
-        .footer-note {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #666;
-        }
-        .fire {
-            margin-right: 5px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>gujarti</title>
+
+<!-- ================= META PIXEL ================= -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init','1647452013840283');
+fbq('track','PageView');
+</script>
+
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1647452013840283&ev=PageView&noscript=1"/>
+</noscript>
+<!-- =============== END META PIXEL =============== -->
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+html,body{
+    width:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:#091120;
+    color:#fff;
+    font-family:Arial,Helvetica,sans-serif;
+    overflow-x:hidden;
+}
+
+.container{
+    width:100%;
+    min-height:100vh;
+    padding:15px 8px;
+    display:flex;
+    justify-content:center;
+}
+
+.card{
+    width:100%;
+    max-width:500px;
+    background:#1b2335;
+    border:1px solid rgba(255,255,255,0.12);
+    border-radius:20px;
+    padding:20px 18px;
+    box-shadow:0 15px 40px rgba(0,0,0,0.30);
+}
+
+
+/* ================= LOGO ================= */
+
+.logo{
+    width:80px;
+    height:80px;
+    display:block;
+    margin:0 auto 12px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+/* ================= TITLE ================= */
+
+h1{
+    margin:0;
+    text-align:center;
+    color:#ffd21a;
+    font-size:27px;
+    font-weight:900;
+    line-height:1.1;
+}
+
+.subtitle{
+    text-align:center;
+    margin-top:8px;
+    font-size:17px;
+    font-weight:800;
+    line-height:1.2;
+}
+
+.tagline{
+    text-align:center;
+    margin:10px 0 15px;
+    color:#c3c7d0;
+    font-size:14px;
+    line-height:1.3;
+}
+
+
+/* ================= TELEGRAM BUTTON ================= */
+
+.telegram-btn{
+    width:100%;
+    min-height:48px;
+    padding:10px 12px;
+    background:#20c85a;
+    color:#000;
+    border-radius:12px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    text-align:center;
+    text-decoration:none;
+
+    font-size:17px;
+    font-weight:800;
+    line-height:1.2;
+
+    margin:0 0 12px;
+
+    transition:transform .2s ease,filter .2s ease;
+
+    -webkit-tap-highlight-color:transparent;
+}
+
+.telegram-btn:hover{
+    transform:translateY(-1px);
+    filter:brightness(1.05);
+}
+
+.telegram-btn:active{
+    transform:scale(.98);
+}
+
+
+/* ================= TRUST BOX ================= */
+
+.trust-box{
+    background:#163640;
+    border:1px solid rgba(0,220,180,.35);
+    border-radius:12px;
+    padding:9px 8px;
+    text-align:center;
+    font-size:14px;
+    line-height:1.45;
+    margin-bottom:13px;
+}
+
+
+/* ================= FEATURES ================= */
+
+.feature{
+    font-size:15px;
+    margin-bottom:9px;
+    line-height:1.3;
+}
+
+.check{
+    color:#777a80;
+    font-size:17px;
+    margin-right:5px;
+}
+
+
+/* ================= BOTTOM ================= */
+
+.warning{
+    text-align:center;
+    color:#ffd21a;
+    font-size:14px;
+    margin-top:13px;
+}
+
+.limited{
+    text-align:center;
+    color:#c7c9d0;
+    font-size:13px;
+    margin-top:8px;
+}
+
+.risk{
+    text-align:center;
+    color:#90939c;
+    font-size:12px;
+    margin-top:8px;
+}
+
+.powered{
+    text-align:center;
+    color:#aeb1bb;
+    font-size:13px;
+    margin-top:15px;
+}
+
+.powered a{
+    color:#2389bf;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+/* ================= SMALL PHONES ================= */
+
+@media(max-width:380px){
+
+    .container{
+        padding:10px 6px;
+    }
+
+    .card{
+        padding:17px 14px;
+        border-radius:18px;
+    }
+
+    .logo{
+        width:70px;
+        height:70px;
+        margin-bottom:9px;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    .subtitle{
+        font-size:15px;
+        margin-top:6px;
+    }
+
+    .tagline{
+        font-size:12px;
+        margin:8px 0 12px;
+    }
+
+    .telegram-btn{
+        min-height:44px;
+        padding:8px 10px;
+        font-size:15px;
+        margin-bottom:10px;
+    }
+
+    .trust-box{
+        font-size:12px;
+        padding:7px;
+        margin-bottom:10px;
+    }
+
+    .feature{
+        font-size:13px;
+        margin-bottom:7px;
+    }
+
+    .check{
+        font-size:15px;
+    }
+
+    .warning{
+        font-size:12px;
+        margin-top:10px;
+    }
+
+    .limited{
+        font-size:11px;
+        margin-top:6px;
+    }
+
+    .risk{
+        font-size:10px;
+        margin-top:6px;
+    }
+
+    .powered{
+        font-size:11px;
+        margin-top:11px;
+    }
+}
+
+</style>
 </head>
+
 <body>
 
-    <div class="card">
-        <div class="header-text">WORK FROM HOME 🏠</div>
-        
-        <div class="logo-container">
-            <img src="logo.png" alt="Profile Logo">
-        </div>
+<div class="container">
+<div class="card">
 
-        <div class="features">
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>STUDENTS 📚</strong> पढ़ाई के साथ EXTRA INCOME</span>
-            </div>
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>HOUSEWIFE 🏠</strong> खाली समय का सही इस्तेमाल</span>
-            </div>
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>JOB SEEKERS 💼</strong> के नए SOURCE</span>
-            </div>
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>Handwriting Work Guidance</strong></span>
-            </div>
-        </div>
+<!-- ================= LOGO ================= -->
 
-        <a href="https://t.me/+MP0rIDYLn0s1OGJl" class="btn-telegram">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" class="telegram-icon" alt="TG">
-            APPLY NOW (TELEGRAM)
-        </a>
+<img src="logo.png"
+     class="logo"
+     alt="ગુજરાતી વેપારી (સેબી નોંધણી)">
 
-        <div class="footer-note">
-            <span class="fire">🔥</span> Hurry! Limited Slots Available
-        </div>
-    </div>
+
+<!-- ================= TITLE ================= -->
+
+<h1>Learning With Gujarati Trader™</h1>
+
+<div class="subtitle">
+NIFTY • BANKNIFTY • OPTIONS
+</div>
+
+<div class="tagline">
+Daily Intraday Trading Signals &amp; Analysis
+</div>
+
+
+<!-- ================= TELEGRAM BUTTON 1 ================= -->
+
+<a href="https://t.me/+N6HS55a0qXliZWVk"
+   class="telegram-btn"
+   target="_blank"
+   rel="noopener noreferrer">
+
+🚀 Join Free Telegram Channel
+
+</a>
+
+
+<!-- ================= TRUST BOX ================= -->
+
+<div class="trust-box">
+
+<div>✔ Trusted by 5,000+ Traders</div>
+<div>✔ Daily Consistent Setups</div>
+
+</div>
+
+
+<!-- ================= FEATURES ================= -->
+
+<div class="feature">
+<span class="check">✔</span>
+5–7 High Probability Trades
+</div>
+
+<div class="feature">
+<span class="check">✔</span>
+Exact Entry, SL &amp; Target
+</div>
+
+<div class="feature">
+<span class="check">✔</span>
+Beginner Friendly Guidance
+</div>
+
+<div class="feature">
+<span class="check">✔</span>
+Live Market Updates
+</div>
+
+
+<!-- ================= TELEGRAM BUTTON 2 ================= -->
+
+<a href="https://t.me/+N6HS55a0qXliZWVk"
+   class="telegram-btn"
+   target="_blank"
+   rel="noopener noreferrer">
+
+🚀 Join Free Telegram Channel
+
+</a>
+
+
+<!-- ================= BOTTOM ================= -->
+
+<div class="warning">
+⌛ Free Access Closing Soon
+</div>
+
+<div class="limited">
+📈 Limited Seats • Active Community
+</div>
+
+<div class="risk">
+⚠️ Market investments are subject to risk
+</div>
+
+
+<!-- ================= ADS MANAGED BY YASH ================= -->
+
+<div class="powered">
+
+Ads Managed By
+
+<a href="https://t.me/+60VgI7emtM83ZGY9"
+   target="_blank"
+   rel="noopener noreferrer">
+
+YASH
+
+</a>
+
+</div>
+
+</div>
+</div>
+
+
+<!-- ================= TELEGRAM CLICK TRACKING ================= -->
+
+<script>
+
+document.querySelectorAll('.telegram-btn').forEach(function(button){
+
+    button.addEventListener('click',function(){
+
+        if(typeof fbq === 'function'){
+
+            fbq('track','Lead');
+
+        }
+
+    });
+
+});
+
+</script>
 
 </body>
 </html>
